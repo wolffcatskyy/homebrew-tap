@@ -11,10 +11,6 @@ cask "smcfancontrol" do
 
   app "smcFanControl.app"
 
-  postflight do
-    suppress_move_to_applications
-  end
-
   zap trash: [
     "~/Library/Application Support/smcFanControl",
     "~/Library/Preferences/com.eidac.smcFanControl2.plist",
