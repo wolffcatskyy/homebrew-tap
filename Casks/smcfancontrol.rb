@@ -7,7 +7,6 @@ cask "smcfancontrol" do
   desc "Fan control for Intel Macs — boot-time control, modern UI, minimal footprint"
   homepage "https://wolffcatskyy.dev/smcfancontrol"
 
-  depends_on macos: ">= :el_capitan"
   depends_on arch: :x86_64
 
   app "smcFanControl.app"
