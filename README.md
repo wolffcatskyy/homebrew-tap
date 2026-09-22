@@ -20,16 +20,12 @@ brew tap wolffcatskyy/tap
 brew install --cask wolffcatskyy/tap/smcfancontrol
 ```
 
-### Formulas
+## CrowdSec tools
 
-| Formula | Description |
-|---------|-------------|
-| `crowdsec-blocklist-import` | Memory-efficient importer for 28+ threat feeds into CrowdSec |
-| `crowdsec-unifi-bouncer` | CrowdSec bouncer for UniFi Dream Machine using native nftables |
+The CrowdSec formulas (`crowdsec-blocklist-import`, `crowdsec-unifi-bouncer`) live in the dedicated CrowdSec tap:
 
 ```bash
-brew install wolffcatskyy/tap/crowdsec-blocklist-import
-brew install wolffcatskyy/tap/crowdsec-unifi-bouncer
+brew tap wolffcatskyy/crowdsec
 ```
 
-> **Note:** CrowdSec formulas are also available via `brew tap wolffcatskyy/crowdsec`.
+See [wolffcatskyy/homebrew-crowdsec](https://github.com/wolffcatskyy/homebrew-crowdsec).
